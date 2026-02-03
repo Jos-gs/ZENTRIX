@@ -1,0 +1,13 @@
+{
+    "name": "zentrix/web",
+    "description": "ZENTRIX - Landing y suscripción MVC",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
