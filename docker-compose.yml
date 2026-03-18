@@ -2,7 +2,7 @@ services:
   zentrix:
     build: .
     ports:
-      - "3000:3000"
+      - "3003:3000"
     environment:
       ZENTRIX_ENV: development
       ZENTRIX_DEBUG: "1"
