@@ -83,28 +83,25 @@ composer install
 
 ## Cómo ejecutar en local
 
-**Importante:** Si arrancas solo con `php -S localhost:3000` (sin `router.php`), la ruta `/assets/styles.css` dará 404 y la página se verá sin estilos. Hay que usar el router.
+Para que los assets estáticos (CSS/JS/imagenes) se sirvan correctamente con el servidor integrado de PHP, usa el router del proyecto.
 
-Desde la raíz del proyecto, **una** de estas opciones:
-
-**Opción A — Scripts (Windows, más fácil):**
-
-- Doble clic en **`start.bat`**, o en PowerShell: `.\start.ps1`
-- Arranca el servidor en **http://localhost:3000** usando `router.php`.
-
-**Opción B — Línea de comandos:**
+Desde la raíz del proyecto:
 
 ```bash
-php -S localhost:3000 router.php
-```
-
-**Opción C** (con document root en `public`):
-
-```bash
-php -S localhost:8000 -t public public/router.php
+php -S localhost:3000 -t public public/router.php
 ```
 
 Luego abre en el navegador: **http://localhost:3000** (o el puerto que uses).
+
+## Ejecutar con Docker
+
+Requiere Docker + Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+Luego abre: **http://localhost:3000**
 
 - **/** — Home  
 - **/servicios** — Servicios  

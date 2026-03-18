@@ -1,0 +1,9 @@
+services:
+  zentrix:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      ZENTRIX_ENV: development
+      ZENTRIX_DEBUG: "1"
+      ZENTRIX_URL: http://localhost:3000
