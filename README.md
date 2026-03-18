@@ -91,6 +91,12 @@ Desde la raíz del proyecto:
 php -S localhost:3000 -t public public/router.php
 ```
 
+Alternativa (si prefieres arrancar desde la raíz sin `-t public`):
+
+```bash
+php -S localhost:3000 router.php
+```
+
 Luego abre en el navegador: **http://localhost:3000** (o el puerto que uses).
 
 ## Ejecutar con Docker
