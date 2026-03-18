@@ -97,7 +97,7 @@ $pageId = 'home';
     <div class="team-grid">
       <article class="team-card glass-card">
         <div class="team-avatar">
-          <img src="/public/assets/jose.jpeg" alt="Jose Gonzales Siancas">
+          <img src="/assets/jose.jpeg" alt="Jose Gonzales Siancas">
         </div>
         <div class="team-info">
           <h3 class="team-name">Jose Gonzales Siancas</h3>
@@ -118,7 +118,7 @@ $pageId = 'home';
       </article>
       <article class="team-card glass-card">
         <div class="team-avatar">
-          <img src="/public/assets/carlos.jpeg" alt="Carlos Moran Mauricio">
+          <img src="/assets/carlos.jpeg" alt="Carlos Moran Mauricio">
         </div>
         <div class="team-info">
           <h3 class="team-name">Carlos Moran Mauricio</h3>

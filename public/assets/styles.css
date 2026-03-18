@@ -118,7 +118,7 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   padding: 0 0.85rem;
-  min-width: var(--sidebar-w-expanded);
+  width: 100%;
 }
 .sidebar-logo {
   display: flex;
